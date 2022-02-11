@@ -9,7 +9,7 @@ int main()
   cout << "Welcome to Wordle" << endl;
 
   int j = 1;
-  for (int i = 0; i < 5; i++)
+  for (int i = 0; i < 6; i++)
   {
   cout << "\n\nTry " << j++ << "\nEnter a 5 letter word: ";
   cin >> input;
